@@ -15,18 +15,20 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: FORCE_SUB
+      - key: AUTH_CHANNEL
         sync: false
       - key: LOG_CHANNEL
         sync: false
-      - key: DB_NAME
+      - key: DATABASE_NAME
         sync: false
-      - key: DB_URL
+      - key: DATABASE_URI
         sync: false
       - key: START_PIC
         sync: false
-      - key: ADMIN
+      - key: AUTH_USERS
         sync: false
       - key: WEBHOOK
         sync: false
+      - key: COLLECTION_NAME
+        sync: false 
 
